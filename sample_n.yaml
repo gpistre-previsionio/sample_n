@@ -17,7 +17,7 @@ outputs:
   description: 'Path to write the output data'
 implementation:
   container:
-    command: [python, sample_n/src/sample_n.py]
+    command: [python, components/src/sample_n.py]
     args: [
       --n, {inputValue: n},
       --input-dataset-path, {inputPath: input_dataset_path},
