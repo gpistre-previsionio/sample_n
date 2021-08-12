@@ -4,7 +4,7 @@ description: Samples the input dataset according to the `N` property
 inputs:
 - name: n
   label: N
-  type: Int
+  type: Integer
   default: 100
   description: "number of lines to sample"
   is_property: true
